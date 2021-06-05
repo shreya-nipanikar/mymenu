@@ -1,0 +1,17 @@
+.mybutton {
+  background: none;
+  padding: 5px 35px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.mybutton:hover {
+  border-bottom: 1px solid white;
+}
+
+@media (max-width: 992px) {
+  .mybutton {
+    padding: 5px 15px;
+  }
+}
